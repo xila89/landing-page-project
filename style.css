@@ -3,7 +3,6 @@ body {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
-    padding: 0;
 }
 
 img {
@@ -70,8 +69,6 @@ p {
     align-items: center;
 }
 
-
-
 /*hero text styling*/
 
 .hero-text {
@@ -85,4 +82,83 @@ p {
 }
 
 
+.main-content {
+    display: flex;
+    justify-content: center;
+}
 
+.info {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+/*image row styling*/
+
+.img-row img {
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.img-text {
+    text-align: center;
+}
+
+/*inspire or quote text area styling*/
+
+.inspire {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+    width: 100%;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inspire p, blockquote {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 200;
+    width: 600px;
+}
+
+.cta {
+    display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-content: center;
+margin: 0 auto;
+background-color: #3882f6;
+border-radius: 10px;
+width: 800px;
+height: auto;
+color: white;
+padding: 15px;
+
+}
+
+.cta p, .cta h2 {
+    margin: 15px;
+
+}
+
+.cta button {
+    border: solid;
+    margin: 0 auto;
+}
+.footer {
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
