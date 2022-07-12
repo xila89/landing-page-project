@@ -31,7 +31,6 @@ p {
 /*nav styling*/
 .nav {
     padding: 10px;
-    margin-left: 0 auto; 
 }
 
 .nav li {
@@ -49,7 +48,6 @@ p {
 }
 .header-content {
     display: flex;
-    flex-flow: row reverse;
     justify-content: center;
     align-items: center;
 }
@@ -139,7 +137,7 @@ p {
 }
 
 .cta {
-    display: flex;
+display: flex;
 flex-flow: column wrap;
 justify-content: center;
 align-content: center;
