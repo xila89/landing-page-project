@@ -95,18 +95,27 @@ p {
 
 /*image row styling*/
 
-.img-row img {
-    width: 150px;
-    height: 150px;
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
+.main-content {
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.main-content img {
+    border-radius: 45px;
     padding: 25px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+   
 }
 
-.img-text {
+.main-content p {
+    margin: 0 auto;
+    width: 150px;
     text-align: center;
+    justify-content: center;
 }
+
 
 /*inspire or quote text area styling*/
 
